@@ -1,0 +1,10 @@
+# 验证炉 · 插件化
+# 接住「验证与审计」族 105 个热件里的活件（Agent执行格式/审美/常驻审计/算法闸），
+# 死件（发前拦截器写死旧根）不包，禁令扫改为插件内自实现。
+- insert:
+    - id: ql-verify
+      name: 'dsh-verify-kit'
+      config:
+        enabled: true
+        order: 100
+        tool: true
